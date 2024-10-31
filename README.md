@@ -39,17 +39,6 @@ Ensure the following libraries are installed:
 - `scipy`
 - `sklearn`
 
-### Installation Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Corsi01/InvestmentPortfolio-Optimization.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   *(I can help generate a `requirements.txt` file if needed)*
-
 ### Usage Examples
 Each notebook can be executed sequentially. It is recommended to start with **0_DataAcquisition.ipynb** to ensure all necessary data is acquired and prepared for subsequent analyses.
 
@@ -58,7 +47,7 @@ The project provides a detailed evaluation of portfolio performance using metric
 
 ### Contributors
 - **Corsi01**
-- *(List any collaborators here)*
+- *Alf_Ses*
 
 ### License
 This project is licensed under the MIT License. 
