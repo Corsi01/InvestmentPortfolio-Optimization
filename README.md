@@ -42,7 +42,7 @@ Ensure the following libraries are installed:
 ### Installation Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/Portfolio_Analysis.git
+   git clone https://github.com/Corsi01/InvestmentPortfolio-Optimization.git
    ```
 2. Install dependencies:
    ```bash
@@ -57,8 +57,8 @@ Each notebook can be executed sequentially. It is recommended to start with **0_
 The project provides a detailed evaluation of portfolio performance using metrics such as Sharpe ratio, specific and systematic risks, and expected returns. Graphs are included to compare portfolio performance against the NASDAQ 100 benchmark.
 
 ### Contributors
-- **[Your Name]**
+- **Corsi01**
 - *(List any collaborators here)*
 
 ### License
-This project is licensed under the MIT License. *(Modify if using a different license)*
+This project is licensed under the MIT License. 
