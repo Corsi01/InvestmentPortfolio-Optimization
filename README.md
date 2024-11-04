@@ -7,12 +7,12 @@ This project focuses on the analysis and optimization of financial portfolios us
 ### Project Structure
 The project is divided into multiple notebooks, each covering a specific stage of the analysis:
 
-1. **0_DataAcquisition.ipynb**: Data Acquisition
+*  **0_DataAcquisition.ipynb**: Data Acquisition
    - Downloads historical data for the NASDAQ 100, including price history and index composition over the last ten years (2014-2023).
    - Prepares the data by checking data quality and handling missing values.
    - Computes logarithmic returns for stocks and the reference index.
 
-2. **1_Nasdaq_Compositions.ipynb**: Nasdaq Index Composition Reconstruction
+*  **1_Nasdaq_Compositions.ipynb**: Nasdaq Index Composition Reconstruction
    - Reconstructs the NASDAQ 100 composition over the years, tracking stocks that were added or removed.
    - Organizes the data to represent the full history of the index.
 
