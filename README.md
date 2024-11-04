@@ -16,17 +16,17 @@ The project is divided into multiple notebooks, each covering a specific stage o
    - Reconstructs the NASDAQ 100 composition over the years, tracking stocks that were added or removed.
    - Organizes the data to represent the full history of the index.
 
-3. **2_logReturnsRegression.ipynb**: Rolling Regression of Logarithmic Returns
+* **2_logReturnsRegression.ipynb**: Rolling Regression of Logarithmic Returns
    - Imports the previously acquired data and calculates net returns using the Fama and French Three-Factor Model.
    - Executes a rolling regression on the logarithmic returns for each stock to compute necessary parameters.
    - Extracts p-values to analyze parameter significance.
 
-4. **3_Portfolios_Evaluation.ipynb**: Portfolio Creation and Evaluation
+* **3_Portfolios_Evaluation.ipynb**: Portfolio Creation and Evaluation
    - Builds portfolios using various metrics like Sharpe ratio, systematic and specific risks, and expected returns.
    - Includes functions to visualize portfolio performance compared to the NASDAQ 100 benchmark.
    - Conducts an alpha analysis to identify stocks with significant parameters and creates balanced portfolios.
 
-5. **4_Momentum_Strategy.ipynb**: Momentum Strategy
+* **4_Momentum_Strategy.ipynb**: Momentum Strategy
    - Calculates an HQM (High Quality Momentum) score for each stock, based on momentum indicators over various time windows (180, 90, 60, 30, and 7 days).
    - Creates portfolios based on top momentum stocks and compares their performance against the benchmark.
    - Includes evaluation metrics and visualizations to assess portfolio performance.
